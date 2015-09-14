@@ -14,21 +14,29 @@
     <link rel="home" href="{% url 'zinnia:entry_archive_index' %}" />
     <link rel="stylesheet" href="{% static "zinnia_bootstrap/bootstrap/css/bootstrap.min.css" %}" />
     <style type="text/css">
-      body {
-        padding-top: 70px;
-      }
-      body > nav img {
-        margin-top: 5px;
-        margin-left: 10px;
-      }
-      p.entry-discussions {
-        margin-bottom: 0px;
-      }
+        body {
+            padding-top: 70px;
+        }
+        body > nav img {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        p.entry-discussions {
+            margin-bottom: 0px;
+        }
 
-      footer {
-        color: #cccccc;
-          background-color: #000000;
-      }
+        footer {
+            color: #cccccc;
+            background-color: #000000;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+        footer > a {
+            color: #cccccc;
+        }
+
+
     </style>
     <!--[if lt IE 9]>
         <script src="{% static "zinnia_bootstrap/assets/js/html5shiv.js" %}"></script>
